@@ -1,0 +1,71 @@
+animation3, .animation_layer3 {
+    height:1000px;
+    }
+    
+    .animation3 {
+      display: block;
+      height:auto;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .animation_layer3 {
+        background-position: bottom center;
+        background-size: auto 1000px;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: absolute;
+    }
+    .animation_layer.parallax3 {
+        position: fixed;
+    }
+
+    #bgspons {
+        background-image: url(../../assets/Sponsormodified/bg.svg);
+        height:800px;
+      }
+      
+      #layers0 {
+        background-image: url(../../assets/Sponsormodified/layer3.svg);
+        margin-bottom:'50px';
+      }
+      #layers1 {
+        background-image: url(../../assets/Sponsormodified/layer.svg);
+        margin-bottom:'40px';
+      }
+      #layers2 {
+        background-image: url(../../assets/Sponsormodified/layer2.svg);
+        margin-bottom:'40px';
+      }
+      #layers3 {
+        background-image: url(../../assets/Sponsormodified/layer1.svg);
+        
+      }
+      #layers4 {
+        background-image: url(../../assets/Sponsormodified/layer1.svg);
+        
+      }
+      #layers5 {
+        background-image: url(../../assets/Sponsormodified//fishs2.svg);
+        
+      }
+      #layers6 {
+        background-image: url(../../assets/sponsor22/submarine.svg);
+        
+      }
+      #layers7 {
+        background-image: url(../../assets/sponsor22/turtle.svg);
+        
+      }
+      #layers8 {
+        background-image: url(../../assets/sponsor22/fishs.svg);
+        right: '50px';
+      }
+      #layers9 {
+        background-image: url(../../assets/sponsor22/gelifish1.svg);
+        
+      }
+      #layers10 {
+        background-image: url(../../assets/Contactus/bubbles.png);
+        
+      }

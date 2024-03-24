@@ -1,0 +1,92 @@
+.animation, .animation_layer {
+height:1000px;
+}
+
+.animation {
+  display: block;
+  height:auto;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1000px;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+.cardb{
+  flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  .cardb{
+    flex-direction: column;
+  }
+}
+
+#bglayer {
+    background-image: url(../../assets/Contactus/Bg_layer.png);
+    height:800px;
+  }
+  #bubbles {
+    background-image: url(../../assets/Contactus/bubbles.png);
+    width:100%;
+  }
+  
+  #layer0 {
+    background-image: url(../../assets/Contactus/layer0.png);
+  }
+  
+  #layer1 {
+    background-image: url(../../assets/Contactus/layer1.png);
+  }
+  #layer2 {
+    background-image: url(../../assets/Contactus/layer2.png);
+  }
+  #layer3 {
+    background-image: url(../../assets/Contactus/layer3.png);
+  }
+  #layer4 {
+    background-image: url(../../assets/Contactus/layer4.png);
+  }
+  #contact {
+    background-image: url(../../assets/Contactus/contactus.png);
+    /* height: 120%; */
+  }
+  #layer5 {
+    background-image: url(../../assets/Contactus/layer5.png);
+  }
+  #layer6 {
+    background-image: url(../../assets/Contactus/layer6.png);
+  }
+  #layer7 {
+    background-image: url(../../assets/Contactus/layer7.png);
+  }
+  #layer8 {
+    background-image: url(../../assets/Contactus/layer8.png);
+    top:5%;
+    right:5%;
+  }
+  #layer9 {
+    background-image: url(../../assets/Contactus/layer9.png);
+    top:5%;
+    
+  }
+  #layer10 {
+    background-image: url(../../assets/Contactus/layer10.png);
+  }
+  #layer11 {
+    background-image: url(../../assets/Contactus/layer11.png);
+    /* top:5%; */
+    width:80%;
+    left:8%;
+  }
+  #layer12 {
+    background-image: url(../../assets/Contactus/layer12.png);
+  }

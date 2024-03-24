@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+	<title>2302</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-978,2445,0,763.417,957)">
+			<stop offset="0" stop-color="#2d8fef"/>
+			<stop offset="1" stop-color="#8dcaf9"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<path id="bg" class="s0" d="m-263.5-21h2445v978h-2445z"/>
+</svg>

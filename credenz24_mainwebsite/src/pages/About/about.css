@@ -1,0 +1,121 @@
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1030px;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+
+#bgblue {
+  background-image: url(../../assets/aboutus/Aboutbg.png);
+}
+
+#flora4 {
+  background-image: url(../../assets/aboutus/flora4.png);
+}
+
+#flora3 {
+  background-image: url(../../assets/aboutus/flora3.png);
+  height: 850px;
+}
+
+#flora2 {
+  background-image: url(../../assets/aboutus/flora2.png);
+}
+
+#flora1 {
+  background-image: url(../../assets/aboutus/flora1.png);
+  
+}
+
+#flora {
+  background-image: url(../../assets/aboutus/flora.png);
+  
+}
+
+ #shark {
+  background-image: url(../../assets/aboutus/shark.png);
+  background-size: 60% 35%;
+  top:-40%;
+  right:40%;
+  height:80%;
+  width:60%;
+} 
+
+#aquaman {
+  background-image: url(../../assets/aboutus/AquaMan.png);
+  background-size: 25% 15%;
+  top: -68%;
+  right: -20%;
+  height:100%;
+  width:80%;
+
+}
+
+/* #bigfish {
+  background-image: url(../../assets/aboutus/Big_Fish.png);
+ 
+} */
+
+/* #smallfish {
+    background-image: url(../../assets/aboutus/smallfish.png);
+   
+     background-repeat: no-repeat;
+  } */
+
+  ::-webkit-scrollbar {
+    width: 10px;          
+ }
+ 
+ ::-webkit-scrollbar-thumb {   
+   border-radius: 30px;
+   background: linear-gradient(#6598cb, #6598cb);
+   box-shadow: inset 2px 2px 2px rgba(255,255,255,.25), inset -2px -2px 2px rgba(0,0,0,.25);}
+ 
+ ::-webkit-scrollbar-track {     
+   background-color: #fff;
+   border-radius:10px;
+   background: linear-gradient(to right,#201c29,#201c29 1px,#100e17 1px,#100e17);
+ }
+
+/* ::-webkit-scrollbar {
+  width: 20px;
+}
+       
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-image: url("https://i.ibb.co/5150925/tracks.png");
+  background-position: -5px;
+  background-repeat: repeat-y;
+  background-size: 50px;
+}
+      
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-image: url("https://i.ibb.co/q95CBdZ/train.png");
+  background-position:center center;
+  background-repeat: no-repeat;
+  background-size: 35px;
+}  */
+
+.map{
+  width: '50%';
+}
+@media (max-width: 500px) {
+  .map{
+    width: '100%';
+  }
+}
