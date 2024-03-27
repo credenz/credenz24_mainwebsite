@@ -71,9 +71,9 @@ const Contact = () => {
           <div className=" flex-col  m-10">
             <div className="text-6xl font-extrabold text-white text-center">Admin Team</div>
             <div  className="flex cardb justify-around gap-5  m-10">
-            <ContactProfileCard className="" name={"Prasanna Pande"}image={imgpp}></ContactProfileCard>
-<ContactProfileCard  className="" name={"Harsh Khandelwal"}image={imghs}></ContactProfileCard>
-            <ContactProfileCard   className="" name={"Shruti Shinde"}image={imgsh}></ContactProfileCard>
+            <ContactProfileCard className="" name={"Prasanna Pande"}image={imgpp} pos={"Vice Chairperson"}></ContactProfileCard>
+<ContactProfileCard  className="" name={"Harsh Khandelwal"}image={imghs} pos={"Joint Secretary"}></ContactProfileCard>
+            <ContactProfileCard   className="" name={"Shruti Shinde"}image={imgsh} pos={"Joint Secretary"}></ContactProfileCard>
             </div>
 	<div className=" flex cardb justify-around gap-5 m-10">
   <ContactProfileCard  className="" name={"Karan Mundhada"}image={imgkrn}></ContactProfileCard>

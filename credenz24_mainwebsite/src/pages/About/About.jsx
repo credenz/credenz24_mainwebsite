@@ -13,6 +13,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import { InfiniteMovingCards } from '../../components/ui/infinite-moving-cards'
 import { HeroParallax } from '../../components/ui/hero-parallax'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import { TabsDemo } from '../../components/cards/aboutuscards'
 import "./about.css"
 const About = () => {
 	const people = [
@@ -99,48 +100,49 @@ const About = () => {
   return (
 	<div className="Aboutus">
 	 <Parallax pages={5} style={{ top: '0', left: '0' }} className='animation bg-[#0f1b34]'>
-      <ParallaxLayer offset={0} speed={0.25}>
+      <ParallaxLayer offset={0} speed={0.75}>
       <div class="animation_layer parallax" id="bgblue"></div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={0.3}>
+	  <ParallaxLayer offset={0} speed={0.9}>
       <div class="animation_layer parallax" id="flora4"></div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={0.28}>
+	  <ParallaxLayer offset={0} speed={0.84}>
       <div class="animation_layer parallax" id="flora3"></div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={0.2}>
+	  <ParallaxLayer offset={0} speed={0.6}>
       <div class="animation_layer parallax" id="flora2"></div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={-0.4}>
+	  <ParallaxLayer offset={0} speed={-1.2}>
       <div className="animation_layer parallax text-center align-middle
 	    text-9xl font-extrabold text-sky-200 flex justify-center items-start">
 		<p className='mt-[20%]'>About Us</p>
 		</div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={0.2}>
+	  <ParallaxLayer offset={0} speed={0.6}>
       <div class="animation_layer parallax" id="flora1"></div>
       </ParallaxLayer>
 	  {/* <ParallaxLayer offset={0} speed={0.3}>
       <div class="animation_layer parallax" id="flora"></div>
       </ParallaxLayer> */}
-	  <ParallaxLayer offset={0} speed={0.40}>
-      <div class="animation_layer parallax" id="shark"></div>
-      </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={0.35}>
+	  <ParallaxLayer offset={0} speed={1.2}>
+		<div class="animation_layer parallax shark" id="shark"></div>
+		</ParallaxLayer>
+	 
+	  <ParallaxLayer offset={0} speed={1.05}>
       <div class="animation_layer parallax" id="aquaman"></div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={0.28}>
+	  <ParallaxLayer offset={0} speed={1.12}>
       <div class="animation_layer parallax" id="bigfish"></div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={0} speed={0.35}>
+	  <ParallaxLayer offset={0} speed={1.1}>
       <div class="animation_layer parallax" id="smallfish"></div>
       </ParallaxLayer>
-	  <ParallaxLayer offset={1} speed={0.45}>
+	  <ParallaxLayer offset={1} speed={1.35}>
 	  <div className="flex flex-row items-center justify-center mr-10 p-4 w-full">
       <AnimatedTooltip items={people} />
     </div>
 	<div className="p-10">
-      <StickyScroll content={content} />
+      <TabsDemo></TabsDemo>
     </div>
 	<div>
 	

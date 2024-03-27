@@ -10,10 +10,13 @@
 
 .animation_layer {
 	background-position: bottom center;
-	background-size: auto 1030px;
+	/* width: 100%; */
+  /* background-size: auto 1038px; */
+	/* position: absolute; */
+	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
-	position: absolute;
+  background-attachment: fixed;
+  background-position: center;
 }
 .animation_layer.parallax {
 	position: fixed;
@@ -21,29 +24,53 @@
 
 #bgblue {
   background-image: url(../../assets/aboutus/Aboutbg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #flora4 {
   background-image: url(../../assets/aboutus/flora4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #flora3 {
   background-image: url(../../assets/aboutus/flora3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   height: 850px;
 }
 
 #flora2 {
   background-image: url(../../assets/aboutus/flora2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #flora1 {
   background-image: url(../../assets/aboutus/flora1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   
 }
 
 #flora {
   background-image: url(../../assets/aboutus/flora.png);
   
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
  #shark {
@@ -114,8 +141,67 @@
 .map{
   width: '50%';
 }
+
+
+@media (max-width: 768px) {
+  .Aboutus .animation .animation_layer.parallax .logo-image {
+    width: 80px;
+  }
+  .head{
+    font-size: 8rem;
+  }
+  #shark{
+    top: -50%;
+    background-size: 40%;
+  }
+  #aquaman{
+    top: -70%;
+    background-size: 30%;
+  }
+  #AnimationTooltip{
+    display: none;
+  }
+}
+
 @media (max-width: 500px) {
+  .Aboutus .animation .animation_layer.parallax .logo-image {
+      width: 80px;
+      height: 80px;
+      background: none;
+  }
   .map{
     width: '100%';
+  }
+  .head{
+    font-size: 6rem;
+  }
+  #shark{
+    top: -60%;
+    background-size: 40%;
+  }
+  #aquaman{
+    top: -80%;
+    background-size: 30%;
+  }
+}
+
+@media (max-width: 375px) {
+  .Aboutus .animation .animation_layer.parallax .logo-image {
+      width: 80px;
+      height: 80px;
+  }
+  .map{
+    width: '100%';
+  }
+  .head{
+    font-size: 5rem;
+  }
+  #shark{
+    top: -65%;
+    background-size: 40%;
+  }
+  #aquaman{
+    top: -85%;
+    background-size: 30%;
   }
 }
